@@ -1,3 +1,5 @@
+--this IS lightly transformed AAA EV stranded data.
+--The lat and long columns are gone and instead the more useful point is stored 
 CREATE TABLE PUBLIC.out_of_charge_fixed (
 pk bigint primary KEY autoincrement start 1 increment 1,
 the_timestamp TIMESTAMP_NTZ,
